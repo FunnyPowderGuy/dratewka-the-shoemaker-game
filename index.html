@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mateusz Makaryk">
+    <link rel="stylesheet" href="style.css">
+    <title>Dratewka the shoemaker Game</title>
+    <script type="module" src="./src/game.js"></script>
+</head>
+<body>
+    <section id="game">
+        <p id="locationHeader"></p>
+        <canvas id="image"></canvas>
+        <canvas id="compass" width="400" height="150"></canvas>
+        <p id="ableMoves"></p>
+        <p id="whatUSee"></p>
+        <p id="whatUCarry"></p>
+        <p id="message" style="display: none;"></p>
+        <div class="flex" id="controls">
+            <p>What now?</p><input type=text id="inputDirection" autofocus>
+        </div>
+    </section>
+</body>
+</html>
